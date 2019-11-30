@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import "./App.css";
-import { Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
 function App() {
   const [date, setDate] = useState(null);
@@ -51,6 +51,6 @@ function App() {
   );
 }
 
-const Home = () => <div> Homr</div>;
+const Home = () => <div> Home</div>;
 const Else = () => <div> Else</div>;
 export default App;
